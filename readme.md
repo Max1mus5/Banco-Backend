@@ -33,7 +33,7 @@ python main.py
 ## Detalles de Implementacion
 - **Clase Cuenta:** Se encarga de crear una cuenta con los atributos: Número de cuenta, Documento de Identidad, Nombre, Saldo. Además, cuenta con los métodos: depositar y retirar dinero.
 <!-- añadir una imagen  -->
-<img src="./img/Diagrama de Clases.png" alt="Diagrama de Clases" width="100%" height="auto" object-position='cover'>
+<img src="./Img/Diagrama de Clases.png" alt="Diagrama de Clases" width="100%" height="auto" object-position='cover'>
 
 - **Clase Db:** Se encarga de guardar el registro de las cuentas en una lista. Además, este archivo llenará la lista con la información contenida en el archivo bankdata.txt.
 
@@ -42,7 +42,7 @@ python main.py
   - *Modelo:*  Se encarga de crear la clase Cuenta y la clase Db
   - *Utils:*  Se encarga de la logica del programa
 
-<img src="./img/Diagrama de Componentes.png" alt="Diagrama de Componentes" width="100%" height="auto">
+<img src="./Img/Diagrama de Componentes.png" alt="Diagrama de Componentes" width="100%" height="auto">
 
 
 - **Interfaz:** Se encarga de mostrar el menú de opciones al usuario y de recibir la información necesaria para crear una cuenta
